@@ -1,0 +1,22 @@
+
+<ion-content padding>
+  <ion-card>
+    <button ion-button full (click)="abrirTelaPerfil()">
+      <ion-icon name="person"></ion-icon>
+      Perfil
+    </button>
+
+    <button ion-button full (click)="abrirTelaColeta()">
+      <ion-icon ios="ios-barcode" md="md-barcode"></ion-icon>
+      Iniciar coleta
+    </button>
+  </ion-card>
+
+  <ion-card>
+    <ion-item class="btnSincronizar">
+      <ion-label> Sincronizar dados com servidor</ion-label>
+      <ion-toggle checked="false"></ion-toggle>
+    </ion-item>
+  </ion-card>
+
+</ion-content>
